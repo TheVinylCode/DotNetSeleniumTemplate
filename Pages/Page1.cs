@@ -1,0 +1,39 @@
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Support.UI;
+
+namespace DotnetSeleniumTemplate.Pages
+{
+    using Data;
+    using HelperClasses;
+
+    /// <summary>
+    /// This class find and returns elements on a web page by 
+    /// using a key in the specified Dictionary.
+    /// </summary>
+    public class Page1
+    {
+        public static IWebElement Element1(IWebDriver driver)
+        {
+            return GetDataValues.FindElementById(driver,
+                WebElementIdsXPaths.DictionaryName, "key");
+        }
+
+        public static IWebElement Element2(IWebDriver driver)
+        {
+            return GetDataValues.FindElementById(driver,
+                WebElementIdsXPaths.DictionaryName, "key");
+        }
+
+        public static IWebElement Element3(IWebDriver driver)
+        {
+            return GetDataValues.FindElementByCss(driver,
+                WebElementIdsXPaths.DictionaryName, "key");            
+        }
+
+        public static SelectElement SelectElement1(IWebDriver driver)
+        {
+            return GetDataValues.FindElementBySelector(driver,
+                WebElementIdsXPaths.DictionaryName, "key");
+        }
+    }
+}

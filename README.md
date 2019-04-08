@@ -19,12 +19,14 @@ Many online resources for Selenium have unorganized code and don't adhere to Obj
 
 
 ## Required NuGet Packages
-The following NuGet Packages will need to be installed for a successful build. 
+The following NuGet Packages will need to be installed to build and run successfully. 
 
 * [Selenium.WebDriver](https://www.nuget.org/packages/Selenium.WebDriver/)
 * [Selenium.Support](https://www.nuget.org/packages/Selenium.Support/3.141.0/)
 * [Selenium.Chrome.WebDriver](https://www.nuget.org/packages/Selenium.Chrome.WebDriver/2.45.0/)
-* [NUnit.Console](https://www.nuget.org/packages/NUnit.Console/3.10.0/)
+* [Selenium.Firefox.WebDriver](https://www.nuget.org/packages/Selenium.Firefox.WebDriver/0.23.0/)
+* [Selenium.InternetExplorer.WebDriver](https://www.nuget.org/packages/Selenium.InternetExplorer.WebDriver/3.141.5/)
+* [NUnit](https://www.nuget.org/packages/NUnit/3.11.0/)
 * [NUnit3TestAdapter](https://www.nuget.org/packages/NUnit3TestAdapter/3.13.0/)
 
 
