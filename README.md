@@ -6,7 +6,7 @@
 * [Required Nuget Packages](#required-nuget-packages)
 * [Project Layout](#project-layout)
 * [How to Use the Template](#how-to-use-the-template)
-
+* [Reminder](#reminder)
 
 ## Purpose
 Many online resources for Selenium have unorganized code and don't adhere to Object-Oriented Programming (OOP). The template is a guide to getting started and how to potentially organize a Selenium Project to make it accessible, not only in readability, but to also see how Selenium can be used to perform a variety of actions. 
@@ -48,4 +48,5 @@ The project is organized according to the POM but with has some changes. Organiz
     
 2. Open DotnetSeleniumTemplate.sln 
 
-
+## Reminder
+Remember: Spiral out. Keep going.
