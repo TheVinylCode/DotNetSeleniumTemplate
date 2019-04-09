@@ -15,25 +15,25 @@ namespace DotnetSeleniumTemplate.Pages
         public static IWebElement Element1(IWebDriver driver)
         {
             return GetDataValues.FindElementById(driver,
-                WebElementIdsXPaths.DictionaryName, "key");
+                WebElementIdsXPaths.DictionaryName, "Key1");
         }
 
         public static IWebElement Element2(IWebDriver driver)
         {
             return GetDataValues.FindElementById(driver,
-                WebElementIdsXPaths.DictionaryName, "key");
+                WebElementIdsXPaths.DictionaryName, "Key2");
         }
 
         public static IWebElement Element3(IWebDriver driver)
         {
             return GetDataValues.FindElementByCss(driver,
-                WebElementIdsXPaths.DictionaryName, "key");            
+                WebElementIdsXPaths.DictionaryName, "Key3");            
         }
 
         public static SelectElement SelectElement1(IWebDriver driver)
         {
             return GetDataValues.FindElementBySelector(driver,
-                WebElementIdsXPaths.DictionaryName, "key");
+                WebElementIdsXPaths.DictionaryName, "Key4");
         }
     }
 }
