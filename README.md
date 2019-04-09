@@ -9,7 +9,7 @@
 * [Reminder](#reminder)
 
 ## Purpose
-Many online resources for Selenium have unorganized code and don't adhere to Object-Oriented Programming (OOP). The template is a guide to getting started and how to potentially organize a Selenium Project to make it accessible, not only in readability, but to also see how Selenium can be used to perform a variety of actions. 
+Many online resources for Selenium have unorganized code and don't adhere to Object-Oriented Programming (OOP). This template is a guide to getting started and how to potentially organize a Selenium Project to make it accessible, not only in readability, but to also see how Selenium can be used to perform a variety of actions. 
 
 ## Features
   - Adheres to OOP
@@ -31,7 +31,7 @@ The following NuGet Packages will need to be installed to build and run successf
 
 
 ## Project Layout
-The project is organized according to the POM but with has some changes. Organizing the project in this way reduces repetetitive code and makes the tests readable. 
+The project is organized according to the POM but has some tweaks. Organizing the project in this way reduces repetetitive code and makes the tests readable. 
 
 | Folder         | Description   
 | -------------  |-------------
