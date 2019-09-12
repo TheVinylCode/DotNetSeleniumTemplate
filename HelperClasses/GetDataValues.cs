@@ -5,6 +5,7 @@ using System.Collections.Generic;
 
 namespace DotnetSeleniumTemplate.HelperClasses
 {
+    
     /// <summary>
     /// This class contains methods to get data from a Dictionary and 
     /// string that are passed in. If the data is found, it is returned.

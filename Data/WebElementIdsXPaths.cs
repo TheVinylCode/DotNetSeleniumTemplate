@@ -9,6 +9,12 @@ namespace DotnetSeleniumTemplate.Data
     /// </summary>
     public class WebElementIdsXPaths
     {
+        //this Dictionary is used for the GoogleSearch test. 
+        public static Dictionary<string, string> GoogleElements =
+            new Dictionary<string, string>
+            {
+                {"GoogleSearchBar", "//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input"}
+            };
         
         public static Dictionary<string, string> DictionaryName = 
             new Dictionary<string, string>
