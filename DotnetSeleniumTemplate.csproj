@@ -62,7 +62,7 @@
     <Compile Include="Data\WebElementIdsXPaths.cs" />
     <Compile Include="HelperClasses\BrowserSetup.cs" />
     <Compile Include="HelperClasses\GetDataValues.cs" />
-    <Compile Include="Pages\GoogleHomePageSample.cs" />
+    <Compile Include="Pages\GoogleHomePage.cs" />
     <Compile Include="Pages\Page1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

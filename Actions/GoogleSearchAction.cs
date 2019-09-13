@@ -12,12 +12,15 @@ namespace DotnetSeleniumTemplate.Actions
     { 
         public static void EnterGoogleSearchTerms(IWebDriver driver, string searchTerms)
         {
-            GoogleHomepageSample.GoogleSearchBarElement(driver).SendKeys(searchTerms);
+            GoogleHomePage.GoogleSearchElements(driver, "GoogleSearchBar").SendKeys(searchTerms);
         }
 
-        public static void SubmitGoogleSearchterms(IWebDriver driver)
+        public static void SubmitGoogleSearchTerms(IWebDriver driver)
         {
-            GoogleHomepageSample.GoogleSearchBarElement(driver).SendKeys(Keys.Return);
+            IWebElement element = GoogleHomePage.GoogleSearchElements(driver, "GoogleSearchButton");
+            IJavaScriptExecutor jsExecutor = (IJavaScriptExecutor)driver;
+
+            jsExecutor.ExecuteScript("arguments[0].click();", element); 
         }
     }
 }
