@@ -13,9 +13,9 @@ namespace DotnetSeleniumTemplate.Data
         public static Dictionary<string, string> GoogleElements =
             new Dictionary<string, string>
             {
-                {"GoogleSearchBar", "//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input"},
+                { "GoogleSearchBar", "//*[@id=\"tsf\"]/div[2]/div[1]/div[1]/div/div[2]/input" },
                 { "GoogleSearchButton", "//*[@id=\"tsf\"]/div[2]/div[1]/div[3]/center/input[1]" },
-                {"GoogleLogo", "//*[@id=\"logo\"]/img" }
+                { "GoogleLogo", "//*[@id=\"logo\"]/img" }
             };
         
         public static Dictionary<string, string> DictionaryName = 

@@ -10,7 +10,7 @@ namespace DotnetSeleniumTemplate.Pages
     /// This class find and returns elements on a web page by 
     /// using a key in the specified Dictionary.
     /// </summary>
-    public class Page1
+    public class PageName
     {
         public static IWebElement Element1(IWebDriver driver)
         {

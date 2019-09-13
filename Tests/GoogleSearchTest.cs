@@ -8,6 +8,7 @@ namespace DotnetSeleniumTemplate.Tests
     using Actions;
     using HelperClasses;
     using Data;
+
     /// <summary>
     /// This is a test class, denoted by [TestFixure].
     /// It also contains a test method, denoted by [TestCase]

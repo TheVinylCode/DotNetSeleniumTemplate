@@ -1,5 +1,4 @@
 using OpenQA.Selenium;
-using OpenQA.Selenium.Support.UI;
 
 namespace DotnetSeleniumTemplate.Pages
 {
@@ -17,5 +16,4 @@ namespace DotnetSeleniumTemplate.Pages
             return GetDataValues.FindElementByXPath(driver,
                 WebElementIdsXPaths.GoogleElements, key);
         }                
-    }
-}
+    }}
