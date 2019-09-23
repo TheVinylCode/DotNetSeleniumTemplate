@@ -22,11 +22,12 @@ namespace DotnetSeleniumTemplate.Tests
         public void GoogleSearch(String url)
         {
             _driver.Url = "https://www.google.com";
+            string searchTerms = "why use selenium for automation?";
 
-            GoogleSearchAction.EnterGoogleSearchTerms(_driver, "why use selenium for automation?");
+            GoogleSearchAction.EnterGoogleSearchTerms(_driver, searchTerms);
             GoogleSearchAction.SubmitGoogleSearchTerms(_driver);
 
-            Assert.IsTrue(GetDataValues.FindElementByXPath(_driver, WebElementIdsXPaths.GoogleElements, "GoogleLogo").Displayed);
+            Assert.AreEqual(_driver.Title, searchTerms + " - Google Search");
         }
 
         public void Dispose()
